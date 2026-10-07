@@ -50,7 +50,7 @@ let handleJoinVideoCall = async () => {
   </div>
 </div>
 <div className={styles.rigthtPanel}>
-  <img srcSet='/logo.jpg' alt=''></img>
+  <img src='/logo.jpg' alt=''></img>
 </div>
    </div>
    </>
