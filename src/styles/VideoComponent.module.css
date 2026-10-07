@@ -1,7 +1,7 @@
 .meetVideoContainer {
     position: relative;
     height: 100vh;
-    background: url("../public/lain6.jpg");
+    background: url("/lain6.jpg");
 }
 
 .meetUserVideo {
@@ -98,7 +98,7 @@
     display: flex;
     height: 100vh;
     align-items: center;
-     background: url("../public/lain5.jpg");
+     background: url("/lain5.jpg");
      background-size: cover;
      background-repeat: no-repeat;
 }
