@@ -1,0 +1,99 @@
+.landingPageContainer{
+    font-family: var(--font-RX100);
+    width: 100vw;
+    height: 100vh;
+    background: url("../public/lain3.jpg");
+    background-repeat: no-repeat; 
+    background-size: cover;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.landingPageContainer nav{
+    padding-inline: 2rem;
+    padding-block: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.landingPageContainer nav:hover{
+
+}
+
+.landingPageContainer nav h2{
+    font-size: 2rem;
+    color: rgb(234, 176, 138);
+    font-weight: 500;
+}
+
+.landingPageContainer nav .navList{
+display: flex;
+gap: 1.6rem;
+cursor: pointer;
+
+}
+.landingPageContainer nav .navList > p:nth-child(1):hover{
+    background-color: blueviolet;
+    padding-inline: 0.5rem;
+    border-radius: 1rem;
+}
+
+.landingPageContainer nav .navList > p:nth-child(2):hover{
+    background-color: blueviolet;
+    padding-inline: 0.5rem;
+    border-radius: 1rem;
+}
+
+.landingPageContainer nav .navList > div:hover{
+    background-color: blueviolet;
+    padding-inline: 0.5rem;
+    border-radius: 1rem;
+}
+
+.landingMainContainer{
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 1rem;
+    height: 80vh;
+    align-items: center;
+}
+
+.landingMainContainer > div:nth-child(1){
+font-size: 1.5rem;
+}
+
+.landingMainContainer > div:nth-child(1) div[role='button']{
+    background: rgba(214, 4, 242, 0.5);
+    width: fit-content;
+    padding: .5rem;
+    border-radius: 15px;
+    margin-top: 1.5rem;
+    border: solid violet;
+}
+.landingMainContainer > div:nth-child(1) div[role='button']:hover{
+    transform: translate(4px, -4px);
+box-shadow: -4px 4px 0 0 violet;
+transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.landingMainContainer > div:nth-child(1) div[role='button'] a {
+    text-decoration: none;
+    color:antiquewhite;
+    font-size: 1.3rem;
+}
+
+.landingMainContainer > div:nth-child(2) video{
+    display: flex;
+    height: 30vh;
+    width: fit-content;
+    /* padding-top: 10rem;
+padding-bottom: 11rem;
+padding-right: 9rem; */
+position: relative;
+right:-3%;
+left: -14rem;
+bottom: 4rem;
+}

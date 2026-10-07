@@ -1,0 +1,112 @@
+.meetVideoContainer {
+    position: relative;
+    height: 100vh;
+    background: url("../public/lain6.jpg");
+}
+
+.meetUserVideo {
+    position: absolute;
+    bottom: 10vh;
+    height: 20vh;
+    width: auto;
+    left: 180px;
+    border-radius: 20px;
+}
+
+.buttonContainers {
+    position: absolute;
+    width: 100vw;
+    bottom: 0;
+    text-align: center;
+}
+
+.buttonContainers svg {
+    font-size: 3rem;
+}
+
+.conferenceView { 
+
+    display: flex;
+    
+    padding: 10px;
+    gap: 10px;
+}
+
+.conferenceView  video {
+    width: 10vw;
+    height: 50vh;
+    min-width: 40vw;
+    border-radius: 50px;
+}
+
+.chatRoom {
+    position: absolute;
+    height: 90vh;
+    right: 0;
+    background: white;
+    border-radius: 10px;
+    width: 30vw;
+    padding-inline: 20px;
+}
+
+.chatContainer {
+    position: relative;
+    height: 100%;
+}
+
+
+.chattingArea {
+    position: absolute;
+    bottom: 0;
+}
+
+.navBar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 20px;
+     align-items: center;
+     text-align: center;
+}
+
+.meetContainer{
+    display: flex;
+    padding-inline: 20px;
+    height: 80vh;
+    gap: 10vw;
+    justify-content: center;
+}
+
+.leftPanel{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.rightPanel{
+    display: flex;
+    align-items: center;
+}
+
+.rightPanel > img{
+    width: 30vw;
+    height: auto;
+    border-radius: 20px;
+}
+
+.connectionsPage{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+     background: url("../public/lain5.jpg");
+     background-size: cover;
+     background-repeat: no-repeat;
+}
+
+.connectionsPage__left{
+    flex: 0.5;
+    flex-direction: column;
+     padding-left: 1rem;
+     gap: 1rem;
+}
+
