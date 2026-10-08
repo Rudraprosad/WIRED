@@ -20,15 +20,31 @@ const server_url = server;
 var connections = {};
 
 const peerConfigConnections = {
-    "iceServers": [
-        { "urls": "stun:stun.l.google.com:19302" },
-
-        {
-    urls: 'turn:192.158.29.39:3478?transport=udp',
-    credential: 'JZEOEt2V3Qb0y27GRntt2u2PAYA=',
-    username: '28224511:1379330808'
-},
-    ]
+    iceServers: [
+  {
+    urls: "stun:stun.relay.metered.ca:80",
+  },
+  {
+    urls: "turn:global.relay.metered.ca:80",
+    username: "d4ea5dd13c3923b23464d266",
+    credential: "6OZTaEyLRbp/WaOs",
+  },
+  {
+    urls: "turn:global.relay.metered.ca:80?transport=tcp",
+    username: "d4ea5dd13c3923b23464d266",
+    credential: "6OZTaEyLRbp/WaOs",
+  },
+  {
+    urls: "turn:global.relay.metered.ca:443",
+    username: "d4ea5dd13c3923b23464d266",
+    credential: "6OZTaEyLRbp/WaOs",
+  },
+  {
+    urls: "turns:global.relay.metered.ca:443?transport=tcp",
+    username: "d4ea5dd13c3923b23464d266",
+    credential: "6OZTaEyLRbp/WaOs",
+  },
+];
 }
 
 export default function VideoMeetComponent() {
