@@ -44,7 +44,7 @@ const peerConfigConnections = {
     username: "d4ea5dd13c3923b23464d266",
     credential: "6OZTaEyLRbp/WaOs",
   },
-];
+]
 }
 
 export default function VideoMeetComponent() {
